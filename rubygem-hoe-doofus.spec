@@ -4,7 +4,7 @@
 #
 Name     : rubygem-hoe-doofus
 Version  : 1.0.0
-Release  : 8
+Release  : 9
 URL      : https://rubygems.org/downloads/hoe-doofus-1.0.0.gem
 Source0  : https://rubygems.org/downloads/hoe-doofus-1.0.0.gem
 Summary  : No detailed summary available
