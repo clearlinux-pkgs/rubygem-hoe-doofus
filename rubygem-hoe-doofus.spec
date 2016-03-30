@@ -4,7 +4,7 @@
 #
 Name     : rubygem-hoe-doofus
 Version  : 1.0.0
-Release  : 9
+Release  : 10
 URL      : https://rubygems.org/downloads/hoe-doofus-1.0.0.gem
 Source0  : https://rubygems.org/downloads/hoe-doofus-1.0.0.gem
 Summary  : No detailed summary available
@@ -55,7 +55,7 @@ fi
 %check
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
-export no_proxy=intel.com,localhost
+export no_proxy=localhost
 pushd %{buildroot}%{gem_dir}/gems/hoe-doofus-1.0.0
 rake --trace test TESTOPTS="-v"
 popd
@@ -63,18 +63,11 @@ popd
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/hoe-doofus-1.0.0.gem
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-doofus-1.0.0/ri/Hoe/Doofus/cdesc-Doofus.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-doofus-1.0.0/ri/Hoe/Doofus/doofus_checklist-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-doofus-1.0.0/ri/Hoe/cdesc-Hoe.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-doofus-1.0.0/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-doofus-1.0.0/ri/page-CHANGELOG_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-doofus-1.0.0/ri/page-Manifest_txt.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-doofus-1.0.0/ri/page-README_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-doofus-1.0.0/.autotest
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-doofus-1.0.0/CHANGELOG.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-doofus-1.0.0/Manifest.txt
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-doofus-1.0.0/README.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-doofus-1.0.0/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-doofus-1.0.0/lib/hoe/doofus.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/hoe-doofus-1.0.0.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/hoe-doofus-1.0.0.gem
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-doofus-1.0.0/.autotest
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-doofus-1.0.0/CHANGELOG.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-doofus-1.0.0/Manifest.txt
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-doofus-1.0.0/README.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-doofus-1.0.0/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-doofus-1.0.0/lib/hoe/doofus.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/hoe-doofus-1.0.0.gemspec
